@@ -13,3 +13,8 @@ while count < math.log(upper-lower+1,2):
     count+=1
     
     guess = int(input("guess the numnber : "))
+    
+    if guess==x:
+        print("Congratulations!!! You won the game!! The number was",x)
+        break
+    
