@@ -20,4 +20,7 @@ while count < math.log(upper-lower+1,2):
     
     elif guess>x:
         print("Try again! You guessed too high.")
+        
+    elif guess<x:
+        print("Try again! You guess too low.")    
     
