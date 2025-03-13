@@ -23,4 +23,8 @@ while count < math.log(upper-lower+1,2):
         
     elif guess<x:
         print("Try again! You guess too low.")    
+        
+if count > math.log(upper-lower+1,2):
+    print("YOU LOSE!")
+    print("The number was",x,"\n Better luck next time")
     
