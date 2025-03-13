@@ -11,3 +11,5 @@ count = 0
 
 while count < math.log(upper-lower+1,2):
     count+=1
+    
+    guess = int(input("guess the numnber : "))
