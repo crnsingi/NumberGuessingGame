@@ -18,3 +18,6 @@ while count < math.log(upper-lower+1,2):
         print("Congratulations!!! You won the game!! The number was",x)
         break
     
+    elif guess>x:
+        print("Try again! You guessed too high.")
+    
